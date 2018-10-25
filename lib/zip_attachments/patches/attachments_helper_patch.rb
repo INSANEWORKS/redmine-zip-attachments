@@ -22,7 +22,6 @@ module ZipAttachments
               else
                 default << '<br>'.html_safe
                 default << link_text
-                default << '<div class="clear"></div>'.html_safe
                 default << '<br>'.html_safe
               end
             end
